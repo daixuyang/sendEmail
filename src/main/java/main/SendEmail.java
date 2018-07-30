@@ -100,7 +100,7 @@ public class SendEmail
         message.setRecipient(MimeMessage.RecipientType.TO, new InternetAddress(receiveMail, "XX用户", "UTF-8"));
 
         // 4. Subject: 邮件主题
-        message.setSubject("how are you?", "UTF-8");
+        message.setSubject("how are you? and you!", "UTF-8");
 
         // 5. EmailBody: 邮件正文（可以使用html标签）
         message.setContent(EmailBody.body(), "text/html;charset=UTF-8");
