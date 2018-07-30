@@ -109,7 +109,6 @@ public class SendEmail
 
         // 7. 保存设置
         message.saveChanges();
-        System.out.println("发送邮件");
         return message;
     }
 }
