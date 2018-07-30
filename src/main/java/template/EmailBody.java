@@ -9,7 +9,7 @@ public class EmailBody {
 
     public static String body(){
         StringBuffer stringBuffer = new StringBuffer();
-        stringBuffer.append("hello");
+        stringBuffer.append("hello word");
         return stringBuffer.toString();
     }
 
